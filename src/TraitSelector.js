@@ -14,30 +14,32 @@ const TraitSelector = () => {
                     </strong>
                 </div>
             </div>
-            <button
-                className="positive"
-                onClick={() => setTrait(choosePositive())}
-            >
-                Positive
+            <div>
+                <button
+                    className="positive"
+                    onClick={() => setTrait(choosePositive())}
+                >
+                    Positive
             </button>
-            <button
-                className="neutral"
-                onClick={() => setTrait(chooseNeutral())}
-            >
-                Neutral
+                <button
+                    className="neutral"
+                    onClick={() => setTrait(chooseNeutral())}
+                >
+                    Neutral
             </button>
-            <button
-                className="negative"
-                onClick={() => setTrait(chooseNegative())}
-            >
-                Negative
+                <button
+                    className="negative"
+                    onClick={() => setTrait(chooseNegative())}
+                >
+                    Negative
             </button>
-            <button
-                className="any"
-                onClick={() => setTrait(chooseAny())}
-            >
-                Any
+                <button
+                    className="any"
+                    onClick={() => setTrait(chooseAny())}
+                >
+                    Any
             </button>
+            </div>
         </main>
     );
 };

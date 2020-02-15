@@ -1,12 +1,14 @@
 import React from 'react';
 import './styles.css';
 import TraitSelector from './TraitSelector';
+import WhatIsThis from './WhatIsThis';
 
 const App = () => {
     return (
-        <div>
+        <>
             <TraitSelector />
-        </div>
+            <WhatIsThis />
+        </>
     );
 };
 
